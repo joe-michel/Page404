@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<title>Error 404: Not found</title>
+	</head>
+<body>
+
+	<header>
+		<h1>Oops !</h1>
+		<h2>Error 404</h2>
+	</header>
+	
+	<div class="postit"><img src="https://www.zupimages.net/up/19/03/34i0.jpg"  alt="Image non disponible"></div>
+
+	<p class="details">Sorry, the page you are looking for is missing. </p>
+
+	<a href="https://github.com/joe-michel">Retour</a>
+
+</body>
+</html>

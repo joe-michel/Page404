@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+}
+
+.postit{
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.postit img:hover{
+	opacity: 0.5;
+}
+
+@keyframes oops{
+  0% {font-size: 100px;}
+  50% {font-size: 80px;}
+  100% {font-size: 100px;}
+}
+
+h1:hover{
+	animation-name: oops;
+  	animation-duration: 2s;
+}
+
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	font-size: 100px;
+	color:  #6c6b6b;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+
+@keyframes error{
+  0% {font-size: 30px;}
+  50% {font-size: 50px;}
+  100% {font-size: 30px;}
+}
+
+h2:hover{
+	animation-name: error;
+  	animation-duration: 2s;
+}
+
+h2{
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	font-size: 30px;
+	color:  #6c6b6b;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+}
+
+.details{
+	text-align: center;
+	font-size: 20px;
+	color:  #6c6b6b;
+}
+
+a{
+	color: black;
+	width: 100px;
+	display: block;
+	border: solid 2px;
+	border-color: black;
+	border-radius: 10px;
+	background-color: #f2f912;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+}
+
+a:hover{
+	background-image: linear-gradient(#f2f912, #c5cb16);
+}
